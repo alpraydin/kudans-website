@@ -15,7 +15,7 @@ export default function BoardPage() {
           Board of Directors
         </h1>
         <p className="text-xl text-gray-400 mb-12 text-center">
-          Meet the dedicated team leading KUDANS for the 2024-2025 academic year
+          Meet the dedicated team leading KUDANS this academic year
         </p>
         
         {/* Executive Board */}

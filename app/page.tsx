@@ -118,8 +118,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-4 mb-8">
             <h2 id="schedule-heading" className="text-3xl font-bold text-center text-white relative inline-block">
               <span className="relative inline-block">
-                Festival Schedule
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-48 h-1 bg-gradient-to-r from-purple-500 to-pink-500"></span>
+                What Happened in Carnaval?
               </span>
             </h2>
             <div className="relative">

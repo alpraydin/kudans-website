@@ -9,91 +9,116 @@ export default function SchedulePage() {
       <div className="container-custom">
         <h1 className="text-4xl font-bold mb-2 text-center">Dance Class Schedule</h1>
         <p className="text-xl text-gray-600 mb-8 text-center">
-          Weekly schedule of dance classes and practices until beginning of June 2025
+          Weekly schedule of dance classes and practices for 2025-2026 academic year
         </p>
         
         <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl shadow-2xl p-6 mb-16 border border-gray-700 w-full mx-auto">
           {/* Responsive Weekly Schedule */}
-          {/* Desktop: 7-column grid, Mobile: stacked day-content pairs */}
+          {/* Desktop: 5-column grid, Mobile: stacked day-content pairs */}
           <div>
             {/* Desktop grid */}
-            <div className="hidden md:grid grid-cols-7 gap-2 text-white">
+            <div className="hidden md:grid grid-cols-[1fr_1fr_1.8fr_1fr_1fr] gap-2 text-white">
             {/* Day Headers */}
             <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Monday</div>
             <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Tuesday</div>
             <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Wednesday</div>
             <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Thursday</div>
             <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Friday</div>
-            <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Saturday</div>
-            <div className="rounded-t-lg p-2 text-center bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-sm">Sunday</div>
+            {/* Saturday removed */}
+            {/* Sunday removed */}
               {/* Day Content Columns */}
               {/* Monday */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
               <div className="space-y-2">
                 <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Int. Ballroom L1</div>
-                  <div className="text-blue-100">20:00 - 21:15</div>
+                  <div className="font-semibold">Modern L1</div>
+                  <div className="text-blue-100">19:00 - 20:00</div>
                   <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
                 <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Int. Ballroom L2</div>
-                  <div className="text-blue-100">21:30 - 22:45</div>
+                  <div className="font-semibold">Modern L2</div>
+                  <div className="text-blue-100">20:15 - 21:15</div>
                   <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
-                </div>
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Social Latin Practice</div>
-                  <div className="text-green-100">20:30 - 21:30</div>
-                  <div className="text-green-200 text-xs">Student Center B329</div>
                 </div>
               </div>
             </div>
               {/* Tuesday */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
               <div className="space-y-2">
-                <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Modern GG</div>
-                  <div className="text-purple-100">17:30 - 20:00</div>
-                  <div className="text-purple-200 text-xs">Upstairs Dance Floor</div>
-                </div>
                 <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">HipHop L1</div>
-                  <div className="text-blue-100">20:00 - 21:00</div>
+                  <div className="font-semibold">Modern Creation L2</div>
+                  <div className="text-blue-100">18:30 - 20:00</div>
                   <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
-                <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">HipHop GG</div>
-                  <div className="text-purple-100">21:15 - 23:30</div>
-                  <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
+                <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                  <div className="font-semibold">Hip Hop L1</div>
+                  <div className="text-blue-100">20:00 - 21:15</div>
+                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                </div>
+                <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                  <div className="font-semibold">Hip Hop L2</div>
+                  <div className="text-blue-100">21:30 - 23:00</div>
+                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
               </div>
             </div>
               {/* Wednesday */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
-              <div className="space-y-2">
-                <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Tango L1/L2</div>
-                  <div className="text-blue-100">18:00 - 20:00</div>
-                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+              {/* Three-column grouping: Tango / Swing / (spacer) */}
+              <div className="grid grid-cols-3 gap-2">
+                {/* Tango Column */}
+                <div className="space-y-2">
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Tango L1</div>
+                    <div className="text-blue-100">19:00 - 20:00</div>
+                    <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Tango L2</div>
+                    <div className="text-blue-100">20:15 - 21:15</div>
+                    <div className="text-blue-200 text-xs">Upstairs Dance Floor</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Tango L3</div>
+                    <div className="text-blue-100">21:30 - 22:30</div>
+                    <div className="text-blue-200 text-xs">Upstairs Dance Floor</div>
+                  </div>
                 </div>
-                <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Tango GG</div>
-                  <div className="text-purple-100">20:00 - 22:40</div>
-                  <div className="text-purple-200 text-xs">Upstairs Dance Floor</div>
+                {/* Swing Column */}
+                <div className="space-y-2">
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Swing L1</div>
+                    <div className="text-blue-100">20:15 - 21:15</div>
+                    <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Swing Solo Jazz</div>
+                    <div className="text-blue-100">21:30 - 22:30</div>
+                    <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">Swing L2</div>
+                    <div className="text-blue-100">22:45 - 23:45</div>
+                    <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                  </div>
                 </div>
-                <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Swing L2</div>
-                  <div className="text-blue-100">20:00 - 21:30</div>
-                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
-                </div>
-                <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Swing GG</div>
-                  <div className="text-purple-100">21:30 - 00:00</div>
-                  <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
-                </div>
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Hiphop Practice</div>
-                  <div className="text-green-100">18:00 - 19:00</div>
-                  <div className="text-green-200 text-xs">Student Center B329</div>
+                {/* International Latin Column */}
+                <div className="space-y-2">
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">International Latin L1</div>
+                    <div className="text-blue-100">19:00 - 20:00</div>
+                    <div className="text-blue-200 text-xs">Omer B329</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">International Latin L2</div>
+                    <div className="text-blue-100">20:15 - 21:15</div>
+                    <div className="text-blue-200 text-xs">Omer B329</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                    <div className="font-semibold">International Latin Competition</div>
+                    <div className="text-blue-100">21:30 - 22:30</div>
+                    <div className="text-blue-200 text-xs">Omer B329</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -101,56 +126,28 @@ export default function SchedulePage() {
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
               <div className="space-y-2">
                 <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Social Latin L2</div>
+                  <div className="font-semibold">Social Latin L1</div>
                   <div className="text-blue-100">19:00 - 20:00</div>
                   <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
-                <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Social Latin GG</div>
-                  <div className="text-purple-100">20:00 - 22:00</div>
-                  <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
+                <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
+                  <div className="font-semibold">Social Latin L2</div>
+                  <div className="text-blue-100">20:15 - 21:15</div>
+                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
                 <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Modern Technique</div>
-                  <div className="text-blue-100">18:00 - 20:00</div>
-                  <div className="text-blue-200 text-xs">Student Center B329</div>
-                </div>
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Modern Practice</div>
-                  <div className="text-green-100">20:00 - 21:00</div>
-                  <div className="text-green-200 text-xs">Student Center B329</div>
+                  <div className="font-semibold">Social Latin L3</div>
+                  <div className="text-blue-100">21:30 - 22:30</div>
+                  <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                 </div>
               </div>
             </div>
               {/* Friday */}
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
-              <div className="space-y-2">
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Swing Practice</div>
-                  <div className="text-green-100">18:00 - 19:00</div>
-                  <div className="text-green-200 text-xs">Downstairs Dance Floor</div>
-                </div>
-              </div>
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg flex items-center justify-center h-[100px]">
+              <div className="text-gray-400 italic text-center text-xs sm:text-sm">No Classes</div>
             </div>
-              {/* Saturday */}
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg flex items-center justify-center h-[100px]">
-                <div className="text-gray-400 italic text-center text-xs sm:text-sm">No Classes</div>
-              </div>
-              {/* Sunday */}
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg min-h-[280px] shadow-lg">
-              <div className="space-y-2">
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Tango Practice</div>
-                  <div className="text-green-100">15:00 - 16:00</div>
-                  <div className="text-green-200 text-xs">Upstairs Dance Floor</div>
-                </div>
-                <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs sm:text-sm">
-                  <div className="font-semibold">Int. Ballroom Practice</div>
-                  <div className="text-green-100">18:00 - 19:00</div>
-                  <div className="text-green-200 text-xs">Upstairs Dance Floor</div>
-                  </div>
-                </div>
-              </div>
+              {/* Saturday - removed */}
+              {/* Sunday - removed */}
             </div>
 
             {/* Mobile stacked layout */}
@@ -161,19 +158,14 @@ export default function SchedulePage() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
                   <div className="space-y-2">
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Int. Ballroom L1</div>
-                      <div className="text-blue-100">20:00 - 21:15</div>
+                      <div className="font-semibold">Modern L1</div>
+                      <div className="text-blue-100">19:00 - 20:00</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Int. Ballroom L2</div>
-                      <div className="text-blue-100">21:30 - 22:45</div>
+                      <div className="font-semibold">Modern L2</div>
+                      <div className="text-blue-100">20:15 - 21:15</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
-                    </div>
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Social Latin Practice</div>
-                      <div className="text-green-100">20:30 - 21:30</div>
-                      <div className="text-green-200 text-xs">Student Center B329</div>
                     </div>
                   </div>
                 </div>
@@ -183,20 +175,20 @@ export default function SchedulePage() {
                 <div className="rounded-t-lg p-2 bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-base text-center">Tuesday</div>
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
                   <div className="space-y-2">
-                    <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Modern GG</div>
-                      <div className="text-purple-100">17:30 - 20:00</div>
-                      <div className="text-purple-200 text-xs">Upstairs Dance Floor</div>
-                    </div>
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">HipHop L1</div>
-                      <div className="text-blue-100">20:00 - 21:00</div>
+                      <div className="font-semibold">Modern Creation L2</div>
+                      <div className="text-blue-100">18:30 - 20:00</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
-                    <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">HipHop GG</div>
-                      <div className="text-purple-100">21:15 - 23:30</div>
-                      <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Hip Hop L1</div>
+                      <div className="text-blue-100">20:00 - 21:15</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                    </div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Hip Hop L2</div>
+                      <div className="text-blue-100">21:30 - 23:00</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
                   </div>
                 </div>
@@ -207,29 +199,49 @@ export default function SchedulePage() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
                   <div className="space-y-2">
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Tango L1/L2</div>
-                      <div className="text-blue-100">18:00 - 20:00</div>
+                      <div className="font-semibold">Tango L1</div>
+                      <div className="text-blue-100">19:00 - 20:00</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
-                    <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Tango GG</div>
-                      <div className="text-purple-100">20:00 - 22:40</div>
-                      <div className="text-purple-200 text-xs">Upstairs Dance Floor</div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Tango L2</div>
+                      <div className="text-blue-100">20:15 - 21:15</div>
+                      <div className="text-blue-200 text-xs">Upstairs Dance Floor</div>
+                    </div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Tango L3</div>
+                      <div className="text-blue-100">21:30 - 22:30</div>
+                      <div className="text-blue-200 text-xs">Upstairs Dance Floor</div>
+                    </div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Swing L1</div>
+                      <div className="text-blue-100">20:15 - 21:15</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
+                    </div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Swing Solo Jazz</div>
+                      <div className="text-blue-100">21:30 - 22:30</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
                       <div className="font-semibold">Swing L2</div>
-                      <div className="text-blue-100">20:00 - 21:30</div>
+                      <div className="text-blue-100">22:45 - 23:45</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
-                    <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Swing GG</div>
-                      <div className="text-purple-100">21:30 - 00:00</div>
-                      <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">International Latin L1</div>
+                      <div className="text-blue-100">19:00 - 20:00</div>
+                      <div className="text-blue-200 text-xs">Omer B329</div>
                     </div>
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Hiphop Practice</div>
-                      <div className="text-green-100">18:00 - 19:00</div>
-                      <div className="text-green-200 text-xs">Student Center B329</div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">International Latin L2</div>
+                      <div className="text-blue-100">20:15 - 21:15</div>
+                      <div className="text-blue-200 text-xs">Omer B329</div>
+                    </div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">International Latin Competition Team</div>
+                      <div className="text-purple-100">21:30 - 22:30</div>
+                      <div className="text-purple-200 text-xs">Omer B329</div>
                     </div>
                   </div>
                 </div>
@@ -240,66 +252,32 @@ export default function SchedulePage() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
                   <div className="space-y-2">
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Social Latin L2</div>
+                      <div className="font-semibold">Social Latin L1</div>
                       <div className="text-blue-100">19:00 - 20:00</div>
                       <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
-                    <div className="bg-gradient-to-r from-purple-800 to-purple-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Social Latin GG</div>
-                      <div className="text-purple-100">20:00 - 22:00</div>
-                      <div className="text-purple-200 text-xs">Downstairs Dance Floor</div>
+                    <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
+                      <div className="font-semibold">Social Latin L2</div>
+                      <div className="text-blue-100">20:15 - 21:15</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
                     <div className="bg-gradient-to-r from-blue-800 to-blue-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Modern Technique</div>
-                      <div className="text-blue-100">18:00 - 20:00</div>
-                      <div className="text-blue-200 text-xs">Student Center B329</div>
-                    </div>
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Modern Practice</div>
-                      <div className="text-green-100">20:00 - 21:00</div>
-                      <div className="text-green-200 text-xs">Student Center B329</div>
+                      <div className="font-semibold">Social Latin L3</div>
+                      <div className="text-blue-100">21:30 - 22:30</div>
+                      <div className="text-blue-200 text-xs">Downstairs Dance Floor</div>
                     </div>
                   </div>
                 </div>
               </div>
-              {/* Friday */}
+               {/* Friday */}
               <div>
                 <div className="rounded-t-lg p-2 bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-base text-center">Friday</div>
-                <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
-                  <div className="space-y-2">
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Swing Practice</div>
-                      <div className="text-green-100">18:00 - 19:00</div>
-                      <div className="text-green-200 text-xs">Downstairs Dance Floor</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Saturday */}
-              <div>
-                <div className="rounded-t-lg p-2 bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-base text-center">Saturday</div>
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg flex items-center justify-center h-[100px]">
                   <div className="text-gray-400 italic text-center text-xs">No Classes</div>
                 </div>
               </div>
-              {/* Sunday */}
-              <div>
-                <div className="rounded-t-lg p-2 bg-gradient-to-r from-gray-700 to-gray-600 font-bold text-base text-center">Sunday</div>
-                <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-2 rounded-b-lg shadow-lg">
-                  <div className="space-y-2">
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Tango Practice</div>
-                      <div className="text-green-100">15:00 - 16:00</div>
-                      <div className="text-green-200 text-xs">Upstairs Dance Floor</div>
-                    </div>
-                    <div className="bg-gradient-to-r from-green-800 to-green-700 p-2 rounded-lg shadow-md text-xs">
-                      <div className="font-semibold">Int. Ballroom Practice</div>
-                      <div className="text-green-100">18:00 - 19:00</div>
-                      <div className="text-green-200 text-xs">Upstairs Dance Floor</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {/* Saturday - removed */}
+              {/* Sunday - removed */}
             </div>
           </div>
           

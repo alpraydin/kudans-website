@@ -365,13 +365,16 @@ const getFestivalData = (id: string): Festival | undefined => {
         'Immersive carnival atmosphere with vibrant performances',
         'This is our voice, our platform, our declaration of resistance - #DİRENİŞSAHNEDE',
       ],
-      instagramPosts: [
-        { title: 'Hiphop', src: 'https://www.instagram.com/p/DKCgRRusqW9/embed?hidecaption=true' },
-        { title: 'Swing', src: 'https://www.instagram.com/p/DJ_t9RqMP8v/embed?hidecaption=true' },
-        { title: 'International Ballroom', src: 'https://www.instagram.com/p/DJ9QKOrMkvH/embed?hidecaption=true' },
-        { title: 'Social Latin', src: 'https://www.instagram.com/p/DJ37RiisRIc/embed?hidecaption=true' },
-        { title: 'Modern', src: 'https://www.instagram.com/p/DJ1sOTksadx/embed?hidecaption=true' },
-        { title: 'Tango', src: 'https://www.instagram.com/p/DJza7mzMURm/embed?hidecaption=true' },
+      videos: [
+        { title: 'Swing - Acrobats', src: 'https://www.youtube.com/embed/4GmiFfbBGio' },
+        { title: 'Social Latin - Dancers', src: 'https://www.youtube.com/embed/iyxBXNn7x-E' },
+        { title: 'Hiphop - Pantomime', src: 'https://www.youtube.com/embed/EXMUvfAgM7I' },
+        { title: 'International Latin - Freaks', src: 'https://www.youtube.com/embed/aEY5OG0pEkU' },
+        { title: 'Modern - Clowns', src: 'https://www.youtube.com/embed/hKg-kHDnt4E' },
+        { title: 'Tango', src: 'https://www.youtube.com/embed/ewJd8NQcTv0' },
+        { title: 'Barkovizyon', src: 'https://www.youtube.com/embed/NbGRywXlWcQ' },
+        { title: 'Aftermovie', src: 'https://www.youtube.com/embed/KXLPtjSxTFE' },
+        { title: 'Last Dance', src: 'https://www.youtube.com/embed/z6Xda7_zJdk' },
       ],
     },
   ];
